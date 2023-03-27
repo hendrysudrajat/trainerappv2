@@ -1,0 +1,18 @@
+<mvc:View controllerName="ui5app.controller.View1"
+    xmlns:mvc="sap.ui.core.mvc" displayBlock="true"
+    xmlns="sap.m">
+    <Page id="page" title="{i18n>title}">
+        <content>
+        <HBox>
+         <!-- <Link href='/proxy/trainerdata'>TrainerData</Link> -->
+	<Label text="Label A (required)"  />
+    	<Link
+				text="test proxy"
+				target="_blank"
+				href="trainerproxy/" />
+         
+        </HBox>
+           
+        </content>
+    </Page>
+</mvc:View>
